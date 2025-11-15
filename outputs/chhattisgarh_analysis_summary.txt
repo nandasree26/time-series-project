@@ -1,0 +1,26 @@
+Canonical state key: chhattisgarh
+Mapped raw names: Chhattisgarh
+
+STEP 5: Stationarity tests results
+  ADF stat: -1.586068199886805, ADF p: 0.49058804831377234
+  KPSS stat: 0.42966557471148387, KPSS p: 0.06436828676229145
+
+STEP 6: Differencing applied
+  After diff ADF stat: -2.174177782716356, p: 0.21575053989282383
+  After diff KPSS stat: 0.1182268514652708, p: 0.1
+
+STEP 7: Data years available: 2006 — 2022
+Desired train years: 2006 — 2020
+Desired test years: 2021 — 2022
+STEP 7: Train years: 2006 - 2020 (13)
+STEP 7: Test years: 2021 - 2022 (2)
+
+STEP 9: Model evaluation on test
+  MAE: 0.5761
+  RMSE: 0.6124
+
+FINAL: Model & Forecast
+  Model type: ARIMAX
+  Exogenous columns used: ['state_temperature_max_val', 'state_temperature_min_val', 'state_rainfall_val']
+  Forecast CSV: chhattisgarhforecast2023_2025.csv
+  Test MAE: 0.5761, RMSE: 0.6124

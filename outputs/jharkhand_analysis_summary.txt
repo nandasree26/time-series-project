@@ -1,0 +1,24 @@
+Canonical state key: jharkhand
+Mapped raw names: Jharkhand
+
+STEP 5: Stationarity tests results
+  ADF stat: -3.7376431879716274, ADF p: 0.0036137684225912214
+  KPSS stat: 0.18089674519531085, KPSS p: 0.1
+
+STEP 6: Differencing NOT required (series considered stationary enough)
+
+STEP 7: Data years available: 2002 — 2020
+Desired train years: 2002 — 2018
+Desired test years: 2019 — 2020
+STEP 7: Train years: 2002 - 2016 (15)
+STEP 7: Test years: 2020 - 2020 (1)
+
+STEP 9: Model evaluation on test
+  MAE: 0.5356
+  RMSE: 0.5356
+
+FINAL: Model & Forecast
+  Model type: ARIMAX
+  Exogenous columns used: ['state_temperature_max_val', 'state_temperature_min_val', 'state_rainfall_val']
+  Forecast CSV: jharkhandforecast2023_2025.csv
+  Test MAE: 0.5356, RMSE: 0.5356

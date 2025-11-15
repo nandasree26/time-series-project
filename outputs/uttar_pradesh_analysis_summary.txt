@@ -1,0 +1,26 @@
+Canonical state key: uttar_pradesh
+Mapped raw names: Uttar Pradesh
+
+STEP 5: Stationarity tests results
+  ADF stat: -0.07686542508266334, ADF p: 0.9516946277280137
+  KPSS stat: 0.5793878497625423, KPSS p: 0.024510195476132514
+
+STEP 6: Differencing applied
+  After diff ADF stat: -5.141318861700436, p: 1.1570918823119824e-05
+  After diff KPSS stat: 0.3293636260027175, p: 0.1
+
+STEP 7: Data years available: 2004 — 2022
+Desired train years: 2004 — 2020
+Desired test years: 2021 — 2022
+STEP 7: Train years: 2004 - 2020 (17)
+STEP 7: Test years: 2021 - 2022 (2)
+
+STEP 9: Model evaluation on test
+  MAE: 7.1917
+  RMSE: 7.1917
+
+FINAL: Model & Forecast
+  Model type: ARIMAX
+  Exogenous columns used: ['state_temperature_max_val', 'state_temperature_min_val', 'state_rainfall_val']
+  Forecast CSV: uttar_pradeshforecast2023_2025.csv
+  Test MAE: 7.1917, RMSE: 7.1917

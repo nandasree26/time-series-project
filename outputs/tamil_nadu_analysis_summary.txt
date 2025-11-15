@@ -1,0 +1,26 @@
+Canonical state key: tamil_nadu
+Mapped raw names: Tamil Nadu
+
+STEP 5: Stationarity tests results
+  ADF stat: 0.5789348814055811, ADF p: 0.9870847361405357
+  KPSS stat: 0.17283192874790207, KPSS p: 0.1
+
+STEP 6: Differencing applied
+  After diff ADF stat: -4.069095221817419, p: 0.0010889334892592922
+  After diff KPSS stat: 0.31492851502067565, p: 0.1
+
+STEP 7: Data years available: 2013 — 2022
+Desired train years: 2013 — 2020
+Desired test years: 2021 — 2022
+STEP 7: Train years: 2013 - 2020 (8)
+STEP 7: Test years: 2021 - 2022 (2)
+
+STEP 9: Model evaluation on test
+  MAE: 1.6065
+  RMSE: 1.7694
+
+FINAL: Model & Forecast
+  Model type: ARIMAX
+  Exogenous columns used: ['state_temperature_max_val', 'state_temperature_min_val', 'state_rainfall_val']
+  Forecast CSV: tamil_naduforecast2023_2025.csv
+  Test MAE: 1.6065, RMSE: 1.7694

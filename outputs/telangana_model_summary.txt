@@ -1,0 +1,28 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                  yield   No. Observations:                    7
+Model:               SARIMAX(1, 1, 1)   Log Likelihood                  -4.736
+Date:                Sat, 15 Nov 2025   AIC                             21.472
+Time:                        14:01:43   BIC                             17.789
+Sample:                             0   HQIC                            13.391
+                                  - 7                                         
+Covariance Type:                  opg                                         
+=============================================================================================
+                                coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+state_temperature_max_val    12.3070      0.659     18.675      0.000      11.015      13.599
+state_temperature_min_val   -27.2707      0.516    -52.837      0.000     -28.282     -26.259
+state_rainfall_val            0.0516      0.022      2.338      0.019       0.008       0.095
+ar.L1                         0.3883      0.607      0.640      0.522      -0.801       1.578
+ma.L1                        -0.8935      0.836     -1.068      0.285      -2.533       0.746
+sigma2                        0.3656      1.046      0.349      0.727      -1.685       2.416
+===================================================================================
+Ljung-Box (L1) (Q):                   0.21   Jarque-Bera (JB):                 0.58
+Prob(Q):                              0.65   Prob(JB):                         0.75
+Heteroskedasticity (H):                nan   Skew:                             0.77
+Prob(H) (two-sided):                   nan   Kurtosis:                         1.95
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 1.82e+17. Standard errors may be unstable.

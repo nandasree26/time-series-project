@@ -1,0 +1,26 @@
+Canonical state key: karnataka
+Mapped raw names: Karnataka
+
+STEP 5: Stationarity tests results
+  ADF stat: -0.5212566915702825, ADF p: 0.8878012214578996
+  KPSS stat: 0.3638252001229232, KPSS p: 0.09274775856770552
+
+STEP 6: Differencing applied
+  After diff ADF stat: -2.3432046789528296, p: 0.1584118331185702
+  After diff KPSS stat: 0.4999999999999988, p: 0.04166666666666694
+
+STEP 7: Data years available: 2005 — 2022
+Desired train years: 2005 — 2020
+Desired test years: 2021 — 2022
+STEP 7: Train years: 2005 - 2020 (15)
+STEP 7: Test years: 2021 - 2022 (2)
+
+STEP 9: Model evaluation on test
+  MAE: 1.3466
+  RMSE: 1.8933
+
+FINAL: Model & Forecast
+  Model type: ARIMAX
+  Exogenous columns used: ['state_temperature_max_val', 'state_temperature_min_val', 'state_rainfall_val']
+  Forecast CSV: karnatakaforecast2023_2025.csv
+  Test MAE: 1.3466, RMSE: 1.8933
